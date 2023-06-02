@@ -28,10 +28,10 @@ class DatabaseSeeder extends Seeder
         );
         User::create(
             [
-                'name' => 'Arif Budiman Arrosyid',
-                'email' => 'arifbudimanarrosyid@gmail.com',
+                'name' => 'Zahran Rafif',
+                'email' => 'zahranlumia@gmail.com',
                 'email_verified_at' => now(),
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'password' => '$2a$12$zA0YEEhVjsD5c4LMv9Ecw.yu3KSXu.1J2qA5xAQNv5Dg3htIrhvwG', // password
                 'remember_token' => Str::random(10),
                 'is_admin' => false
             ]
